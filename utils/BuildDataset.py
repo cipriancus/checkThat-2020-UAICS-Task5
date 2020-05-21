@@ -14,7 +14,7 @@ def read_dataset(sqlContext):
                          StructField('label', IntegerType(), False)])
 
     for file in listdir("."):
-        if firstIteration == True:
+        if firstIteration:
             data = sqlContext.read.format("com.databricks.spark.csv").options(header='false',
                                                                               inferschema='true',
                                                                               delimiter='\t').schema(

@@ -1,61 +1,55 @@
 from pyspark import SparkContext, SparkConf
-import utils.ClassifyAlgorithm as clsf
-from algorithms import MultilayerPerceptron as multiLayPer
-from algorithms import LogisticRegression as lr
-from algorithms import SVM as svm
+from pyspark.sql import SQLContext
+from algorithms import LR as lr
+from algorithms import DT as dt
 from algorithms import NB as bn
+from algorithms import MLP as mlp
+import utils.BuildDataset as buildDataset
+import utils.ClassifyAlgorithm as clsf
 import warnings
 import os
-import utils.BuildDataset as buildDataset
-from pyspark.sql import SQLContext
 
-os.chdir("./data/2019/training")
+os.chdir("data/training")
 
 warnings.filterwarnings("ignore")
 
-conf = SparkConf().setAppName("App")
+conf = SparkConf().setAppName("clef")
+
 conf = (conf.setMaster('local[*]')
-        .set('spark.executor.memory', '12G')
-        .set('spark.driver.memory', '12G'))
+        .set('spark.executor.memory', '45G')
+        .set('spark.driver.memory', '45G')
+        .set('spark.driver.maxResultSize', '45G'))
 
 spark_context = SparkContext(conf=conf)
 
 sqlContext = SQLContext(spark_context)
 
-data = buildDataset.read_dataset(sqlContext)
+train = buildDataset.read_dataset(sqlContext)
 
-train, validate = data.randomSplit([1.0, 0.0], seed=12345)
-
-os.chdir("../test")
-
-print(os.getcwd())
-
-print('---- 1 -----')
-print('Bayes Naive')
-bn_classifier = bn.BN(train)
-print(clsf.validate(bn_classifier, validate))
-print(clsf.classify(bn_classifier, sqlContext, 'primary'))
-
+# print('---- 1 -----')
+# print('Bayes Naive')
+# bn_classifier = bn.BN(train)
+# clsf.validate(bn_classifier, sqlContext, 'bn')
+# #clsf.classify(bn_classifier, sqlContext, 'bn')
 # del bn_classifier
 #
 # print('---- 2 -----')
 # print('Logistic Regression')
 # lr_classifier = lr.LR(train)
-# #print(clsf.validate(lr_classifier, validate))
-# print(clsf.classify(lr_classifier, sqlContext, 'contrastive1'))
-#
+# clsf.validate(lr_classifier, sqlContext, 'lr')
+# #clsf.classify(lr_classifier, sqlContext, 'lr')
 # del lr_classifier
 #
 # print('---- 3 -----')
-# print('SVM')
-# svm_class = svm.SVM(train)
-# #print(clsf.validate(svm_class, validate))
-# print(clsf.classify(svm_class, sqlContext,'contrastive2'))
-#
-# del svm_class
+# print('DT')
+# dt_alg = dt.DT(train)
+# clsf.validate(dt_alg, sqlContext, 'dt')
+# #clsf.classify(dt_alg, sqlContext, 'dt')
+# del dt_alg
 
-# print('---- 5 -----')
-# print('Multi Layer Perceptron Neural Network')
-# multiLayPer_classifier = multiLayPer.MPClassifier(train)
-# print(clsf.validate(multiLayPer_classifier, validate))
-# print(clsf.classify(multiLayPer_classifier, sqlContext,'mlp'))
+print('---- 4 -----')
+print('MLP')
+mlp_alg = mlp.MLP(train)
+clsf.validate(mlp_alg, sqlContext, 'mlp')
+#clsf.classify(mlp_alg, sqlContext, 'mlp')
+del mlp_alg

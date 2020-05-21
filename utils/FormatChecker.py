@@ -39,7 +39,7 @@ def check_format(file_path):
 if __name__ == "__main__":
     from os import listdir
     import os
-    os.chdir('../data/results')
+    os.chdir('../data/2019/results')
 
     for file in listdir('.'):
         logging.info("Task 1: Checking file: {}".format(file))

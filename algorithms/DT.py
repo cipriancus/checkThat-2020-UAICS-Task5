@@ -2,10 +2,10 @@ from pyspark.ml import Pipeline
 from pyspark.ml.feature import CountVectorizer
 from pyspark.ml.feature import IDF
 from pyspark.ml.feature import Tokenizer
-from pyspark.ml.classification import NaiveBayes
+from pyspark.ml.classification import DecisionTreeClassifier
 
 
-class BN(object):
+class DT(object):
     def __init__(self, data):
         tokenizer = Tokenizer(inputCol="text", outputCol="words")
 
@@ -13,8 +13,8 @@ class BN(object):
 
         idf = IDF(minDocFreq=3, inputCol="rawFeatures", outputCol="features")
 
-        nb = NaiveBayes()
+        dt = DecisionTreeClassifier(maxDepth=30, maxBins=128, minInstancesPerNode=5, maxMemoryInMB=4096)
 
-        pipeline = Pipeline(stages=[tokenizer, vectorizer, idf, nb])
+        pipeline = Pipeline(stages=[tokenizer, vectorizer, idf, dt])
 
         self.model = pipeline.fit(data)
