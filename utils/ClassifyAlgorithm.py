@@ -70,7 +70,7 @@ def classify(obj, sqlContext, classifier):
 
             selected = prediction.select("id", "text", "probability", "prediction")
 
-            f = open('./results/' + classifier + '-' + file, "w+")
+            f = open('./results/' + classifier + '/' + file, "w+")
 
             for row in selected.collect():
                 rid, text, prob, prediction = row

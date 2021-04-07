@@ -1,8 +1,8 @@
-1	LESLEY STAHL	Do you still think that climate change is a hoax?	1
+1	LESLEY STAHL	Do you still think that climate change is a hoax?	0
 2	TRUMP	I think something's happening.	0
 3	TRUMP	Something's changing and it'll change back again.	0
-4	TRUMP	I don't think it's a hoax, I think there's probably a difference.	1
-5	TRUMP	But I don't know that it's manmade.	1
+4	TRUMP	I don't think it's a hoax, I think there's probably a difference.	0
+5	TRUMP	But I don't know that it's manmade.	0
 6	TRUMP	I will say this.	0
 7	TRUMP	I don't wanna give trillions and trillions of dollars.	0
 8	TRUMP	I don't wanna lose millions and millions of jobs.	0
@@ -14,15 +14,15 @@
 14	TRUMP	No, we have--	0
 15	LESLEY STAHL	At NOAA and NASA--	0
 16	TRUMP	We have scientists that disagree with that.	0
-17	LESLEY STAHL	You know, I was thinking what if he said, "No, I've seen the hurricane situations, I've changed my mind. There really is climate change."	0
-18	LESLEY STAHL	And I thought, "Wow, what an impact."	0
+17	LESLEY STAHL	"You know, I was thinking what if he said, ""No, I've seen the hurricane situations, I've changed my mind. There really is climate change."""	0
+18	LESLEY STAHL	"And I thought, ""Wow, what an impact."""	0
 19	TRUMP	Well-- I'm not denying.	0
 20	LESLEY STAHL	What an impact that would make.	0
 21	TRUMP	I'm not denying climate change.	0
 22	TRUMP	But it could very well go back.	0
 23	TRUMP	You know, we're talkin' about over a millions--	0
 24	LESLEY STAHL	But that's denying it.	0
-25	TRUMP	--of years.	0
+25	TRUMP	#NAME?	0
 26	TRUMP	They say that we had hurricanes that were far worse than what we just had with Michael.	0
 27	LESLEY STAHL	Who says that?	0
 28	LESLEY STAHL	They say?	0
@@ -83,14 +83,14 @@
 83	TRUMP	And South Korea.	0
 84	LESLEY STAHL	And South Korea.	0
 85	LESLEY STAHL	And Kavanaugh, the confirmation.	0
-86	TRUMP	There has been no administration in the history of our country, and I say this openly and proudly, that in its first two years--	1
+86	TRUMP	There has been no administration in the history of our country, and I say this openly and proudly, that in its first two years--	0
 87	LESLEY STAHL	Say, this is modesty.	0
 88	TRUMP	Well, it's not even that, it's a fact Tax cuts, regulation cuts, the biggest regulations cuts in history.	0
 89	LESLEY STAHL	What about North Korea?	0
 90	LESLEY STAHL	Talking about accom--	0
 91	TRUMP	Well, I consider it a, so far, great achievement.	0
 92	TRUMP	Look, we--	0
-93	LESLEY STAHL	You say "so far"?	0
+93	LESLEY STAHL	"You say ""so far""?"	0
 94	TRUMP	It's always so far, til everything's done.	0
 95	TRUMP	I-- I-- you know, deals are deals, okay?	0
 96	TRUMP	Whether it's a real estate deal or a retail deal, it doesn't matter.	0
@@ -98,15 +98,15 @@
 98	TRUMP	The day before I came in, we were goin' to war with North Korea.	0
 99	TRUMP	I sat with President Obama--	0
 100	LESLEY STAHL	We were goin' to war?	0
-101	TRUMP	--and-- we were gonna--I think it was going to end up in war.	0
+101	TRUMP	#NAME?	0
 102	TRUMP	And my impression is-- and even in my first few months, I mean, that rhetoric was as tough as it could possibly get.	0
 103	TRUMP	Doesn't get any tougher than that.	0
 104	TRUMP	Nobody's ever heard rhetoric that tough.	0
 105	TRUMP	We were going to war with North Korea.	0
 106	TRUMP	Now, you don't hear that.	0
 107	TRUMP	You don't hear any talk of it.	0
-108	TRUMP	And he doesn't wanna go to war, and we don't wanna go to war, and he understands denuclearization and he's agreed to it.	0
-109	TRUMP	And you see that, he's agreed to it.	0
+108	TRUMP	And he doesn't wanna go to war, and we don't wanna go to war, and he understands denuclearization and he's agreed to it.	1
+109	TRUMP	And you see that, he's agreed to it.	1
 110	TRUMP	No missiles.	0
 111	LESLEY STAHL	Do you trust him?	0
 112	TRUMP	I do trust him, yeah, I trust him.	0
@@ -216,12 +216,12 @@
 216	LESLEY STAHL	Some--	0
 217	TRUMP	--if you think about it, so far, I put 25% tariffs on steel dumping, and aluminum dumping 10%.	0
 218	LESLEY STAHL	But they've--	0
-219	TRUMP	--again.	0
-220	LESLEY STAHL	--retaliated.	0
+219	TRUMP	#NAME?	0
+220	LESLEY STAHL	#NAME?	0
 221	LESLEY STAHL	That's what I'm asking.	0
 222	TRUMP	They can retaliate, but they can't-- they don't have enough ammunition to retaliate.	0
 223	TRUMP	We do $100 billion with them.	0
-224	TRUMP	They do $531 billion with us.	0
+224	TRUMP	They do $531 billion with us.	1
 225	LESLEY STAHL	Are you trying to sort of push them into a depression?	0
 226	TRUMP	No no, although they're down 32 percent in four months, which is 1929.	0
 227	LESLEY STAHL	Well that's what I'm asking.	0
@@ -231,12 +231,12 @@
 231	TRUMP	I want them to open their markets like our-- our markets are open.	0
 232	LESLEY STAHL	But you're in a--	0
 233	TRUMP	And it will be a fair deal--	0
-234	LESLEY STAHL	--trade war right now.	0
+234	LESLEY STAHL	#NAME?	0
 235	LESLEY STAHL	Trade war.	0
 236	TRUMP	You call it war, I don't call--	0
 237	LESLEY STAHL	You-- you--	0
 238	TRUMP	--it--	0
-239	LESLEY STAHL	--you did today.	0
+239	LESLEY STAHL	#NAME?	0
 240	TRUMP	I called it a skirmish.	0
 241	LESLEY STAHL	I heard you, you called it a war.	0
 242	TRUMP	I called it, actually I called it a battle.	0
@@ -257,7 +257,7 @@
 257	LESLEY STAHL	No, but can't you deal with--	0
 258	TRUMP	We've been-- we've been--	0
 259	LESLEY STAHL	--them without--	0
-260	TRUMP	--the stupid country for so many years.	0
+260	TRUMP	#NAME?	0
 261	LESLEY STAHL	Are you willing to get rid of that Western alliance?	0
 262	TRUMP	Now, I like NATO, NATO's fine.	0
 263	TRUMP	But you know what?	0
@@ -272,7 +272,7 @@
 272	TRUMP	You don't know that.	0
 273	LESLEY STAHL	I don't know what?	0
 274	TRUMP	You don't know that.	0
-275	LESLEY STAHL	Is it true General Mattis said to you, "The reason for NATO and the reason for all these alliances is to prevent World War III?"	0
+275	LESLEY STAHL	"Is it true General Mattis said to you, ""The reason for NATO and the reason for all these alliances is to prevent World War III?"""	0
 276	TRUMP	No, it's not true.	0
 277	LESLEY STAHL	What's not true?	0
 278	TRUMP	Frankly, I like General Mattis.	0
@@ -295,9 +295,9 @@
 295	LESLEY STAHL	No, I mean publicly.	0
 296	LESLEY STAHL	You never say anything harsh about him--	0
 297	TRUMP	Excuse me.	0
-298	LESLEY STAHL	--publicly.	0
+298	LESLEY STAHL	#NAME?	0
 299	TRUMP	I didn't?	0
-300	TRUMP	I'm the one that gave Ukraine offensive weapons and tank killers.	1
+300	TRUMP	I'm the one that gave Ukraine offensive weapons and tank killers.	0
 301	TRUMP	Obama didn't.	0
 302	TRUMP	You know what he sent?	0
 303	TRUMP	He sent pillows and blankets.	0
@@ -321,23 +321,23 @@
 321	TRUMP	That's your (Inaudible.)--	0
 322	LESLEY STAHL	--do you believe that the Russians interfered in the 2016 campaign election?	0
 323	LESLEY STAHL	Our election-	0
-324	TRUMP	They-- they meddled.	0
+324	TRUMP	They-- they meddled.	1
 325	TRUMP	But I think China meddled too.	0
 326	LESLEY STAHL	But why do you--	0
 327	TRUMP	And I think other countries--	0
-328	LESLEY STAHL	--say China meddled too?	0
+328	LESLEY STAHL	#NAME?	0
 329	TRUMP	And you wanna know something?	0
 330	LESLEY STAHL	Why do you say Chi-- why don't you just say--	0
 331	TRUMP	Well, let me ask you--	0
-332	LESLEY STAHL	--the Russians meddled?	0
+332	LESLEY STAHL	#NAME?	0
 333	TRUMP	Because I think China meddled also.	0
 334	TRUMP	And I think, frankly, China--	0
 335	LESLEY STAHL	This is amazing.	0
-336	TRUMP	--is a bigger problem.	0
+336	TRUMP	#NAME?	0
 337	LESLEY STAHL	You are diverting the whole Russia thing.	0
 338	TRUMP	I'm not doing anything.	0
 339	LESLEY STAHL	You are, you are	0
-340	TRUMP	I'm saying Russia, but I'm also saying China.	0
+340	TRUMP	I'm saying Russia, but I'm also saying China.	1
 341	LESLEY STAHL	What about the attorney general, Jeff Sessions?	0
 342	TRUMP	Well, we'll see what happens come midterms.	0
 343	TRUMP	But--	0
@@ -368,7 +368,7 @@
 368	TRUMP	But I have-	0
 369	LESLEY STAHL	Well--	0
 370	TRUMP	I have no intention of doing that.	0
-371	TRUMP	Do you really think I'd call Russia to help me with an election?	1
+371	TRUMP	Do you really think I'd call Russia to help me with an election?	0
 372	TRUMP	Give me a break.	0
 373	TRUMP	They wouldn't be able to help me at all.	1
 374	TRUMP	Call Russia.	0
@@ -394,7 +394,7 @@
 394	TRUMP	I was getting to know countries.	0
 395	TRUMP	I didn't wanna do it right outta the box.	0
 396	TRUMP	So I waited a little while, but I could have done trade a little bit earlier.	0
-397	LESLEY STAHL	What about the forced separation of children from their-- migrant children--	1
+397	LESLEY STAHL	What about the forced separation of children from their-- migrant children--	0
 398	TRUMP	Yeah.	0
 399	TRUMP	Well, that was--	0
 400	LESLEY STAHL	from the--	0
@@ -416,7 +416,7 @@
 416	LESLEY STAHL	Can I just ask this simple question, yes or no.	0
 417	TRUMP	Go ahead.	0
 418	LESLEY STAHL	Are you willing to reinstitute that policy?	0
-419	LESLEY STAHL	You said, "We're looking at everything."	0
+419	LESLEY STAHL	"You said, ""We're looking at everything."""	0
 420	TRUMP	I will--	0
 421	LESLEY STAHL	Yes or no.	0
 422	TRUMP	I will only-- I can't-- you can't say yes or no.	0
@@ -424,7 +424,7 @@
 424	LESLEY STAHL	I'm not gonna ask it again--	0
 425	TRUMP	You don't have to.	0
 426	LESLEY STAHL	cause I know you won't-- it--	0
-427	TRUMP	But it's the same as Obama.	0
+427	TRUMP	But it's the same as Obama.	1
 428	LESLEY STAHL	Okay.	0
 429	LESLEY STAHL	Changing subjects again-- you are the first president of the United States who never had a political post before, nor never served in the military.	0
 430	LESLEY STAHL	You come up here, you've been here for almost two years, what's the biggest surprise and what have you learned since you've been president?	0
@@ -466,7 +466,7 @@
 466	LESLEY STAHL	Within families, there aren't even people who can talk to each other.	0
 467	LESLEY STAHL	What does this say about where we are as a country right now, all this division and strife and--	0
 468	TRUMP	Yeah-- I think that--	0
-469	LESLEY STAHL	--anger?	0
+469	LESLEY STAHL	#NAME?	0
 470	TRUMP	--what's going to happen-- I think the economy's bringing people together.	0
 471	TRUMP	It was very polarized under President Obama, unbelievably polarized under President Obama.	0
 472	TRUMP	I can see the country uniting.	0
@@ -478,18 +478,18 @@
 478	LESLEY STAHL	No-- no one is gonna argue with that.	0
 479	TRUMP	I won--	0
 480	LESLEY STAHL	You won.	0
-481	LESLEY STAHL	And then after you won, instead of saying, "Oh, let's all come together, this is wonderful.	0
-482	LESLEY STAHL	Let's heal all of this," you come out and bash the Democrats.	0
+481	LESLEY STAHL	"And then after you won, instead of saying, ""Oh, let's all come together, this is wonderful."	0
+482	LESLEY STAHL	"Let's heal all of this,"" you come out and bash the Democrats."	0
 483	TRUMP	Well, I bashed their attitude.	0
 484	TRUMP	I bashed their statements--	0
 485	LESLEY STAHL	But why not try to--	0
 486	TRUMP	Because they were--	0
-487	LESLEY STAHL	--bring us together?	0
-488	TRUMP	--so unfair to Judge Kavanaugh.	0
+487	LESLEY STAHL	#NAME?	0
+488	TRUMP	#NAME?	0
 489	TRUMP	I've never--	0
 490	LESLEY STAHL	But why not--	0
 491	TRUMP	seen anything like it.	0
-492	LESLEY STAHL	--why not try and-- we need to be healed.	0
+492	LESLEY STAHL	#NAME?	0
 493	LESLEY STAHL	We need--	0
 494	TRUMP	I don't think they want to heal yet, I'll be honest.	0
 495	LESLEY STAHL	Well, you don't wanna--	0
@@ -510,9 +510,9 @@
 510	LESLEY STAHL	Why did you have to make fun of her?	0
 511	TRUMP	I didn't really make fun of her.	0
 512	LESLEY STAHL	Well, they were laughing.	0
-513	TRUMP	What I said the person that we're talking about didn't know the year, the time, the place.	0
+513	TRUMP	What I said the person that we're talking about didn't know the year, the time, the place.	1
 514	LESLEY STAHL	Professor Blasey Ford got before the Senate and-- and was asked what's the worst moment.	0
-515	LESLEY STAHL	And she said, "When the two boys laughed at me, at my expense."	0
+515	LESLEY STAHL	"And she said, ""When the two boys laughed at me, at my expense."""	0
 516	TRUMP	Ok, fine.	0
 517	LESLEY STAHL	And then I watched you mimic her and thousands of people were laughing at her.	0
 518	TRUMP	They can do what they-- I-- I will tell you this.	0
@@ -532,14 +532,14 @@
 532	TRUMP	I'm not gonna get into it because we won.	0
 533	TRUMP	It doesn't matter.	0
 534	TRUMP	We won.	0
-535	LESLEY STAHL	The anonymous column that ran in "The New York Times."	0
+535	LESLEY STAHL	"The anonymous column that ran in ""The New York Times."""	0
 536	LESLEY STAHL	The author, we don't know who it is.	0
 537	LESLEY STAHL	Whoever it is.	0
 538	TRUMP	Whoever it is.	0
-539	TRUMP	Maybe it was "The New York Times" too.	0
+539	TRUMP	"Maybe it was ""The New York Times"" too."	0
 540	LESLEY STAHL	Paints a picture.	0
-541	TRUMP	No, no, it's --By the way, you don't know how dishonest "The New York Times" is.	0
-542	TRUMP	It could've been "The New York Times."	0
+541	TRUMP	"No, no, it's --By the way, you don't know how dishonest ""The New York Times"" is."	0
+542	TRUMP	"It could've been ""The New York Times."""	0
 543	TRUMP	I doubt it.	0
 544	TRUMP	But it could've been.	0
 545	LESLEY STAHL	Okay.	0
@@ -569,7 +569,7 @@
 569	TRUMP	He hasn't told me that.	0
 570	TRUMP	I have--	0
 571	LESLEY STAHL	Do you want him to--	0
-572	TRUMP	--a very good relationship with him.	0
+572	TRUMP	#NAME?	0
 573	TRUMP	It could be that he is.	0
 574	TRUMP	I think he's sort of a Democrat, if you wanna know the truth.	0
 575	TRUMP	But General Mattis is a good guy.	0
@@ -583,7 +583,7 @@
 583	LESLEY STAHL	She said that there are still people in the White House that she doesn't trust and that you shouldn't trust.	0
 584	TRUMP	I feel the same way.	0
 585	TRUMP	I don't trust everybody in the White House, I'll be honest with you.	0
-586	LESLEY STAHL	You go to a meeting, do you have to wonder, "Is he wearing a wire--"	0
+586	LESLEY STAHL	"You go to a meeting, do you have to wonder, ""Is he wearing a wire--"""	0
 587	TRUMP	I'm usually --	0
 588	LESLEY STAHL	–or whatever?	0
 589	TRUMP	Not so much a wire.	0
@@ -603,9 +603,9 @@
 603	TRUMP	Now I very much feel like POTUS.	0
 604	TRUMP	I do.	0
 605	TRUMP	I feel like the president.	0
-606	TRUMP	You know, for a little while, it's like-- "Mr. President, sir."	0
+606	TRUMP	"You know, for a little while, it's like-- ""Mr. President, sir."""	0
 607	TRUMP	It's-- even my friends, they call me, they-- they don't call me Donald-- they call me Mr. President.	0
-608	TRUMP	And I say, "Will you please loosen up?"	0
+608	TRUMP	"And I say, ""Will you please loosen up?"""	0
 609	TRUMP	I've learned on the job.	0
 610	TRUMP	I have.	0
 611	LESLEY STAHL	And you feel comfortable?	0

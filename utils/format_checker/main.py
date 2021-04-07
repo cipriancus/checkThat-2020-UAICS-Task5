@@ -1,7 +1,7 @@
 import argparse
 import re
 import logging
-
+from os import listdir
 
 """
 This script checks whether the results format for Task 5 is correct. 
@@ -32,14 +32,13 @@ def check_format(file_path):
             score = float(score.strip())
 
             if line_number != i + 1:
-                logging.error('Problem with line_number: {}. They should be consecutive and starting from 1.'.format(line_number))
+                logging.error(
+                    'Problem with line_number: {}. They should be consecutive and starting from 1.'.format(line_number))
                 return False
     return True
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--pred_file_path", help="The absolute path to the file you want to check.", type=str)
-    args = parser.parse_args()
-    logging.info("Task 5: Checking file: {}".format(args.pred_file_path))
-    check_format(args.pred_file_path)
+
+    for file in listdir("../../data/test/results/contrastive-2"):
+        print('file: ' + file + " is :" + str(check_format('../../data/test/results/contrastive-2/' + file)))

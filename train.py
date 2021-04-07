@@ -28,21 +28,21 @@ train = buildDataset.read_dataset(sqlContext)
 print('---- 1 -----')
 print('Bayes Naive')
 bn_classifier = bn.BN(train)
-clsf.validate(bn_classifier, sqlContext, 'bn')
-#clsf.classify(bn_classifier, sqlContext, 'bn')
+#clsf.validate(bn_classifier, sqlContext, 'primary')
+clsf.classify(bn_classifier, sqlContext, 'primary')
 del bn_classifier
 
 print('---- 2 -----')
 print('Logistic Regression')
 lr_classifier = lr.LR(train)
-clsf.validate(lr_classifier, sqlContext, 'lr')
-#clsf.classify(lr_classifier, sqlContext, 'lr')
+#clsf.validate(lr_classifier, sqlContext, 'contrastive-1')
+clsf.classify(lr_classifier, sqlContext, 'contrastive-1')
 del lr_classifier
 
 print('---- 3 -----')
 print('DT')
 dt_alg = dt.DT(train)
-clsf.validate(dt_alg, sqlContext, 'dt')
-#clsf.classify(dt_alg, sqlContext, 'dt')
+#clsf.validate(dt_alg, sqlContext, 'contrastive-2')
+clsf.classify(dt_alg, sqlContext, 'contrastive-2')
 del dt_alg
 
